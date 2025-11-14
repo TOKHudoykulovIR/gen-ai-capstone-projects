@@ -38,3 +38,14 @@ GITHUB_REPO=
 ```bash
 streamlit run app.py
 ```
+
+## 🗂 Project Structure
+
+```
+project/
+│── app.py                 # main logic
+│── movie.sqlite           # SQLite database
+│── ui.py/                 # Streamlit logic
+│── requirements.txt       # project dependencies 
+└── .env                   # env variables file
+```
