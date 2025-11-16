@@ -21,21 +21,28 @@ python -m venv venv
 venv\Scripts\activate
 # macOS/Linux:
 source venv/bin/activate
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ## ⚙️ Environment Variables ### Create a file named .env in the project root and add:
-bash
+```bash
 OPENAI_API_KEY=
+```
 
 ▶️ Run the Application
-bash
+```bash
 streamlit run app.py
+```
+
 ## 🗂 Project Structure
+```bash
 project/
 │── app.py                 # main logic
 │── requirements.txt       # project dependencies 
 └── .env                   # env variables file
-
+```
 
